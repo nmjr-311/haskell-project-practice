@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:haskell-project-practice"
+
+    - path: "app/Main.hs"
+      component: "haskell-project-practice:exe:haskell-project-practice"
+
+    - path: "test"
+      component: "haskell-project-practice:test:haskell-project-practice-test"
